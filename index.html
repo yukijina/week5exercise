@@ -17,8 +17,8 @@
 
 	<body>
 		<!-- NAVIGATION -->
-		<nav class="navbar navbar-expand-md bg-warning py-3">
-			<a class="navbar-brand text-dark" href="#">Coffee Time</a>
+		<nav class="navbar navbar-expand-md bg-dark py-3 fixed-top">
+			<a class="navbar-brand text-white" href="index.html">Coffee Love</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			  <span class="navbar-toggler-icon"></span>
 			</button>
@@ -26,13 +26,13 @@
 		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 		    <ul class="navbar-nav mr-auto ml-5">
 		      <li class="nav-item active">
-		        <a class="nav-link text-dark" href="index.html">Home <span class="sr-only">(current)</span></a>
+		        <a class="nav-link text-white" href="index.html">Home <span class="sr-only">(current)</span></a>
 		      </li>
 	      <li class="nav-item">
-	        <a class="nav-link text-dark" href="link.html">Link</a>
+	        <a class="nav-link text-white" href="link.html">Link</a>
 	      </li>
 	      <li class="nav-item dropdown">
-	        <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 	          About
 	        </a>
 	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -45,38 +45,57 @@
 	    </ul>
 	    <form class="form-inline my-2 my-lg-0">
 	      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-	      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+	      <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
 	    </form>
 	  </div>
 </nav>
 <!-- JUMBOTRON -->
-	<div class="jumbotron">
-		<h1 class="display-4">Hello, world!</h1>
+	<div class="jumbotron text-white my-5">
+		<h1 class="display-4 py-3">Hello, world!</h1>
 		<p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
 		<hr class="my-4">
 		<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-		<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+		<a class="btn btn-info btn-lg" href="#" role="button">Learn more</a>
 	</div>
 
-	<div class="container">
-		<div class="row">
+	<!-- CONTAINER - FEATURE -->
+	<div id="feature" class="container">
+		<div class="row text-center">
 			<div class="col-4">
 				<h2 class="h3 mb-4 text-capitalize">coffee beans</h2>
 				<img src="img/coffeebeans.jpg" alt="coffee beans" class="img-fluid rounded">
-				<a href="https://en.wikipedia.org/wiki/Coffee_bean" target="_blank"><button type="button" class="btn btn-outline-dark mt-3">learn more</button></a>
+				<a href="https://en.wikipedia.org/wiki/Coffee_bean" target="_blank">
+					<button type="button" class="btn btn-outline-dark mt-3">learn more</button>
+				</a>
 			</div>
 			<div class="col-4">
 				<h2 class="h3 mb-4 text-capitalize">farm</h2>
 				<img src="img/farm.jpg" alt="coffee farm" class="img-fluid rounded">
-				<a href="https://en.wikipedia.org/wiki/List_of_countries_by_coffee_production" target="_blank>"<button type="button" class="btn btn-outline-info mt-3">learn more</button></a>
+				<a href="https://en.wikipedia.org/wiki/List_of_countries_by_coffee_production" target="_blank">
+					<button type="button" class="btn btn-outline-info mt-3">learn more</button>
+				</a>
 			</div>
 			<div class="col-4">
 				<h2 class="h3 mb-4 text-capitalize">our coffee</h2>
-				<img src="img/coffee.jpg" alt="our best coffee" class="img-right rounded">
-				<a href="https://www.cntraveler.com/gallery/best-coffee-shops-in-san-francisco" target="_blank>"<button type="button" class="btn btn-outline-danger mt-3">learn more</button></a>
+				<img src="img/ourcoffee.jpg" alt="our best coffee" class="img-fluid rounded">
+				<a href="https://www.cntraveler.com/gallery/best-coffee-shops-in-san-francisco" target="_blank">
+					<button type="button" class="btn btn-outline-danger mt-3">learn more</button>
+				</a>
 			</div>
 		</div>
 	</div>
+
+	<!-- FOOTER -->
+	<!-- Just an image -->
+	<footer>
+		<a href="index.html">
+	    <img src="img/coffeeart.jpg" alt="coffee" class="footer-icon">
+	  </a>
+		<p>	&#169; Coffee Love 2018</p>
+		<a href="#"><i class="fab fa-facebook-f"></i></a>
+		<a href="#"><i class="fab fa-twitter"></i></a>
+		<a href="#"><i class="fab fa-instagram"></i></a>
+	</footer>
 
 
 
