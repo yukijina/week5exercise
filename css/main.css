@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 /* JUMBOTRON */
 .jumbotron {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/hero.jpg);
@@ -59,4 +58,47 @@ footer i {
 footer i.fa-facebook-f {
   padding-right: 18px;
   padding-left: 18px;
+}
+
+/* MEDIA QUERY */
+@media(max-width: 770px) {
+  #feature.container h3 {
+    font-size: 1.2rem;
+  }
+  footer p {
+    font-size: 1rem;
+    letter-spacing: inherit;
+  }
+  footer i {
+    display: inline-block;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #4acbf4;
+    padding: 8px;
+    border-radius: 50%;
+    margin: 8px;
+  }
+  footer i.fa-facebook-f {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+
+@media(max-width: 575px) {
+  #feature.container {
+    height: auto;
+  }
+  footer {
+    margin-top: 5%;
+  }
+
+  .jumbotron {
+    text-align: center;
+  }
+}
+
+@media(max-width: 391px) {
+  footer p {
+    display: block;
+  }
 }
